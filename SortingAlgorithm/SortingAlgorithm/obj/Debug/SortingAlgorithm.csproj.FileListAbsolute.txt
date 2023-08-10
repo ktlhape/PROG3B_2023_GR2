@@ -1,0 +1,8 @@
+D:\VC\PROG7312\GR2\SortingAlgorithm\SortingAlgorithm\bin\Debug\SortingAlgorithm.exe.config
+D:\VC\PROG7312\GR2\SortingAlgorithm\SortingAlgorithm\bin\Debug\SortingAlgorithm.exe
+D:\VC\PROG7312\GR2\SortingAlgorithm\SortingAlgorithm\bin\Debug\SortingAlgorithm.pdb
+D:\VC\PROG7312\GR2\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.csproj.AssemblyReference.cache
+D:\VC\PROG7312\GR2\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.csproj.SuggestedBindingRedirects.cache
+D:\VC\PROG7312\GR2\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.csproj.CoreCompileInputs.cache
+D:\VC\PROG7312\GR2\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.exe
+D:\VC\PROG7312\GR2\SortingAlgorithm\SortingAlgorithm\obj\Debug\SortingAlgorithm.pdb

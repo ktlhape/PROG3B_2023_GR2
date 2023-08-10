@@ -1,0 +1,8 @@
+D:\VC\PROG7312\GR2\Arrays\Arrays\bin\Debug\Arrays.exe.config
+D:\VC\PROG7312\GR2\Arrays\Arrays\bin\Debug\Arrays.exe
+D:\VC\PROG7312\GR2\Arrays\Arrays\bin\Debug\Arrays.pdb
+D:\VC\PROG7312\GR2\Arrays\Arrays\obj\Debug\Arrays.csproj.AssemblyReference.cache
+D:\VC\PROG7312\GR2\Arrays\Arrays\obj\Debug\Arrays.csproj.SuggestedBindingRedirects.cache
+D:\VC\PROG7312\GR2\Arrays\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+D:\VC\PROG7312\GR2\Arrays\Arrays\obj\Debug\Arrays.exe
+D:\VC\PROG7312\GR2\Arrays\Arrays\obj\Debug\Arrays.pdb

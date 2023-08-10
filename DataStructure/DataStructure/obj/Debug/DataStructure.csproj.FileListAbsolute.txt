@@ -1,0 +1,8 @@
+D:\VC\PROG7312\GR2\DataStructure\DataStructure\obj\Debug\DataStructure.csproj.AssemblyReference.cache
+D:\VC\PROG7312\GR2\DataStructure\DataStructure\obj\Debug\DataStructure.csproj.SuggestedBindingRedirects.cache
+D:\VC\PROG7312\GR2\DataStructure\DataStructure\obj\Debug\DataStructure.csproj.CoreCompileInputs.cache
+D:\VC\PROG7312\GR2\DataStructure\DataStructure\bin\Debug\DataStructure.exe.config
+D:\VC\PROG7312\GR2\DataStructure\DataStructure\bin\Debug\DataStructure.exe
+D:\VC\PROG7312\GR2\DataStructure\DataStructure\bin\Debug\DataStructure.pdb
+D:\VC\PROG7312\GR2\DataStructure\DataStructure\obj\Debug\DataStructure.exe
+D:\VC\PROG7312\GR2\DataStructure\DataStructure\obj\Debug\DataStructure.pdb
