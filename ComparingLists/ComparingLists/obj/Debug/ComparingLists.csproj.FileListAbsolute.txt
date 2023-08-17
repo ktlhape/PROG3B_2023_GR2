@@ -1,0 +1,8 @@
+D:\VC\PROG7312\GR2\ComparingLists\ComparingLists\obj\Debug\ComparingLists.csproj.AssemblyReference.cache
+D:\VC\PROG7312\GR2\ComparingLists\ComparingLists\obj\Debug\ComparingLists.csproj.SuggestedBindingRedirects.cache
+D:\VC\PROG7312\GR2\ComparingLists\ComparingLists\obj\Debug\ComparingLists.csproj.CoreCompileInputs.cache
+D:\VC\PROG7312\GR2\ComparingLists\ComparingLists\bin\Debug\ComparingLists.exe.config
+D:\VC\PROG7312\GR2\ComparingLists\ComparingLists\bin\Debug\ComparingLists.exe
+D:\VC\PROG7312\GR2\ComparingLists\ComparingLists\bin\Debug\ComparingLists.pdb
+D:\VC\PROG7312\GR2\ComparingLists\ComparingLists\obj\Debug\ComparingLists.exe
+D:\VC\PROG7312\GR2\ComparingLists\ComparingLists\obj\Debug\ComparingLists.pdb

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D721C52D-F7B2-4B4A-9599-777DA0A8927C}</ProjectGuid>
+    <ProjectGuid>{AA0DED8A-83D6-4968-97AD-7837437C8CE1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SortingAlgorithm</RootNamespace>
-    <AssemblyName>SortingAlgorithm</AssemblyName>
+    <RootNamespace>ComparingLists</RootNamespace>
+    <AssemblyName>ComparingLists</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ComparingLists.Sorted_List.SortedListRunner</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,7 +48,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="Sorted_List\SortedListRunner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
