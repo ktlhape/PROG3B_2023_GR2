@@ -15,22 +15,31 @@ namespace ComparingLists.Linked_List
 
             cities.AddLast("Pretoria");
             cities.AddLast("Brooklyn");
-            cities.AddLast("Sandton");
+            cities.AddFirst("Sandton");
             cities.AddLast("Joburg");
 
             DisplayCities(cities);
             //Display all the cities
 
             //Add Benoni in the first position
-            //Add Midrand after Brooklyn
-            //Add Cape Town before Joburg
+            cities.AddFirst("Benoni");
 
+            //Add Midrand after Brooklyn
+            cities.AddAfter(cities.Find("Brooklyn"), "Midrand");
+            //Add Cape Town before Joburg
+            LinkedListNode<string> findJoburg = cities.Find("Joburg");
+            cities.AddBefore(findJoburg, "Cape Town");
             //Display all cities
+            DisplayCities(cities);
         }
 
         private static void DisplayCities(LinkedList<string> cities)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("=========================");
+            foreach (string city in cities)
+            {
+                Console.WriteLine(city);
+            }
         }
     }
 }

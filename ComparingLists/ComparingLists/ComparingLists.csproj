@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ComparingLists.Sorted_List.SortedListRunner</StartupObject>
+    <StartupObject>ComparingLists.Linked_List.LinkedListRunner</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomLinkedList\CustomLinkedListRunner.cs" />
+    <Compile Include="CustomLinkedList\MyLinkedList.cs" />
+    <Compile Include="CustomLinkedList\Node.cs" />
     <Compile Include="Linked_List\LinkedListRunner.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
