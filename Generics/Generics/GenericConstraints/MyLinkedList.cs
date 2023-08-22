@@ -1,16 +1,27 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ComparingLists.CustomLinkedList
+namespace Generics.GenericConstraints
 {
-    public class MyLinkedList
+    public class MyLinkedList<T> : IEnumerable<T> where T : Student
     {
-       private Node head;
+        public class Node
+        {
+            public T Data { get; set; }
+            public Node Next { get; set; }
+            public Node Previous { get; set; }
+            public Node(T value)
+            {
+                this.Data = value;
+            }
+        }
 
-        public void AddToFirst(int value)
+        private Node head;
+        public void AddToFirst(T value)
         {
             Node newNode = new Node(value);
             if (head is null)
@@ -25,7 +36,7 @@ namespace ComparingLists.CustomLinkedList
                 head = newNode;
             }
         }
-        public void AddToLast(int value)
+        public void AddToLast(T value)
         {
             Node newNode = new Node(value);
             if (head is null)
@@ -43,21 +54,20 @@ namespace ComparingLists.CustomLinkedList
             }
         }
 
-        public void Display()
+        public IEnumerator<T> GetEnumerator()
         {
-            /* 5
-             * 8
-             * 2
-             */
             Node currentNode = head;
             while (currentNode != null)
             {
-                Console.WriteLine(currentNode.Data);//5,8,2
+                yield return currentNode.Data;
                 currentNode = currentNode.Next;
-            
             }
+        }
 
-
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
+
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AA0DED8A-83D6-4968-97AD-7837437C8CE1}</ProjectGuid>
+    <ProjectGuid>{504F526B-089D-4F3D-ABD2-BD50B3C9DA83}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ComparingLists</RootNamespace>
-    <AssemblyName>ComparingLists</AssemblyName>
+    <RootNamespace>Generics</RootNamespace>
+    <AssemblyName>Generics</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ComparingLists.CustomLinkedList.CustomLinkedListRunner</StartupObject>
+    <StartupObject>Generics.GenericConstraints.GenericConstraintsTester</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,16 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomLinkedList\CustomLinkedListRunner.cs" />
-    <Compile Include="CustomLinkedList\MyLinkedList.cs" />
-    <Compile Include="CustomLinkedList\Node.cs" />
-    <Compile Include="Linked_List\LinkedListRunner.cs" />
+    <Compile Include="GenericConstraints\GenericConstraintsTester.cs" />
+    <Compile Include="GenericConstraints\MyLinkedList.cs" />
+    <Compile Include="GenericConstraints\Student.cs" />
+    <Compile Include="GenericLinkedList\LinkedListTester.cs" />
+    <Compile Include="GenericLinkedList\MyLinkedList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sorted_List\SortedListRunner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
