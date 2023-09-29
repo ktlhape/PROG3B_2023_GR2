@@ -44,7 +44,7 @@ namespace UsingQueues.MultipleAdvisors
                 center.Interview(st);
                 Console.ForegroundColor = ConsoleColor.White;
                 Print($"Student {stId} is waiting in a queue");
-                Thread.Sleep(rdn.Next(5000, 6000));//Assume the student will wait about 5-6 seconds before being attended
+                Thread.Sleep(rdn.Next(2000, 4000));//Assume the student will wait about 5-6 seconds before being attended
             }
          
         }
