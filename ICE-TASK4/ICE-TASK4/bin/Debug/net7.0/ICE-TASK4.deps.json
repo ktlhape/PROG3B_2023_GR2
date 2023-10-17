@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ICE-TASK4/1.0.0": {
+        "runtime": {
+          "ICE-TASK4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ICE-TASK4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

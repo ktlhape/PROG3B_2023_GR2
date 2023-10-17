@@ -11,10 +11,22 @@
              HR,FINANCE,IT*/
             Dictionary<string, List<string>> departments = new();
             //Add items
-            departments.Add("HR", new() { "David", "Carol", "Kabelo" });
-            departments.Add("IT", new() { "Jessica", "Thabo", "Mike", "Roger" });
-            departments.Add("FIN", new() { "Smith", "Caroline" });
-
+            using (StreamReader reader = new StreamReader("departments.txt"))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] lines = line.Split(new char[] { ',' });
+                    string dep = lines[0]; //HR
+                    List<string> names = new List<string>();
+                    for (int i = 1; i < lines.Length; i++)
+                    {
+                        names.Add(lines[i]);
+                    }
+                    departments.Add(dep, names);
+                }
+            }
+       
             //Acces data
             List<string> hrList = departments["HR"];
             //Display
