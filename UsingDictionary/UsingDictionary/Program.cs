@@ -2,6 +2,10 @@
 {
     internal class Program
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
 
@@ -19,6 +23,7 @@
                     string[] lines = line.Split(new char[] { ',' });
                     string dep = lines[0]; //HR
                     List<string> names = new List<string>();
+                    names.Sort();
                     for (int i = 1; i < lines.Length; i++)
                     {
                         names.Add(lines[i]);
