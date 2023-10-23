@@ -11,35 +11,23 @@ namespace UsingDictionary.ComparingDictionaries
     {
         static void Main(string[] args)
         {
-            /*  012 - Pretoria
-                011 - Johannesburg
-                031 - Durban
-                014 - Rustenburg
-                016 - Vereeniging
-                021 - Cape Town
-                018 - Potchefstroom
-                057 - Welkom
-             */
             Dictionary<string, string> areaCodes = new();
             Dictionary<string, string> userAreaCodes = new();
-            //Original 
+            //Original
             areaCodes.Add("011", "Johannesburg");
             areaCodes.Add("031", "Durban");
             areaCodes.Add("014", "Rustenburg");
             areaCodes.Add("021", "Cape Town");
             areaCodes.Add("018", "Potchefstroom");
-
             //User answers
             userAreaCodes.Add("014", "Rustenburg");
             userAreaCodes.Add("011", "Johannesburg");
             userAreaCodes.Add("021", "Cape Town");
             userAreaCodes.Add("018", "Potchefstroom");
             userAreaCodes.Add("031", "KZN");
-
             Random rnd = new Random();
             areaCodes = areaCodes.OrderBy(c => rnd.Next())
                 .ToDictionary(codes => codes.Key, codes => codes.Value);
-
             Display(areaCodes);
 
             int count = 0;
